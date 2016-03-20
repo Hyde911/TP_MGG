@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP_MG
+namespace TP_MGTest.DataRepositoryTest
 {
-    class Program
+    class ReservationsTest
     {
-        static void Main(string[] args)
-        {
-            Console.ReadKey();
-        }
     }
 }

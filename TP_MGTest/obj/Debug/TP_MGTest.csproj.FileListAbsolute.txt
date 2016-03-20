@@ -1,0 +1,7 @@
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\TP_MGTest.dll
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\TP_MGTest.pdb
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.csprojResolveAssemblyReference.cache
+D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.dll
+D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.pdb
