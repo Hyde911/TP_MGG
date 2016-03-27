@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TP_MG.Model;
+using TP_MG.Repositories;
 
 namespace TP_MG.Interfaces
 {
-   public interface IDataGenerator
+    public interface IDataPrinter
     {
-        void fillData(Dictionary<int, Customer> customers, List<Room> rooms, ObservableCollection<Reservation> reservations);
+        void printCollections(DataRepository repository);
     }
 }

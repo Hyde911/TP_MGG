@@ -50,9 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DataRepositoryTest\CustomersTest.cs" />
-    <Compile Include="DataRepositoryTest\ReservationsTest.cs" />
-    <Compile Include="DataRepositoryTest\RoomsTest.cs" />
+    <Compile Include="DataRepositoryTests\BooksCollectionTests.cs" />
+    <Compile Include="DataRepositoryTests\CustomerCollectionTests.cs" />
+    <Compile Include="DataRepositoryTests\ReservationCollectionTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,6 +62,7 @@
       <Name>TP_MG</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

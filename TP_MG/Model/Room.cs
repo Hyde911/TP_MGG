@@ -7,26 +7,20 @@ using System.Threading.Tasks;
 
 namespace TP_MG.Model
 {
-    class Room
+    public class Room
     {
-        private int roomNumber;
-        public int RoomNumber
+        public int RoomNumber { get; set; }
+        public int FloorNumber { get; set; }
+        public Room (int roomNumber)
         {
-            get
-            {
-                return this.FloorNumber * 100 + this.roomNumber;
-            }
-            set
-            {
-                roomNumber = value;
-            }
+            RoomNumber = roomNumber;
+            FloorNumber = roomNumber / 100;
         }
 
-        public int FloorNumber { get; set; }
 
         public override string ToString()
         {
-            return String.Format("room  no. {0} a {1} floor", RoomNumber, FloorNumber);
+            return String.Format("room no. {0} on {1} floor", RoomNumber, FloorNumber);
         }
     }
 

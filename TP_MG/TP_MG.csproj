@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataGens\BigRandomDataGenerator.cs" />
     <Compile Include="DataGens\SmallDataGenerator.cs" />
+    <Compile Include="Interfaces\IDataPrinter.cs" />
     <Compile Include="Repositories\DataRepository.cs" />
     <Compile Include="Interfaces\IDataGenerator.cs" />
     <Compile Include="Model\Customer.cs" />
@@ -54,6 +56,7 @@
     <Compile Include="Model\Room.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\SimpleCollectionPrinter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

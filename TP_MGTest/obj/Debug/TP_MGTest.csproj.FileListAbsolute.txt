@@ -5,3 +5,5 @@ D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTes
 D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.csprojResolveAssemblyReference.cache
 D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.dll
 D:\Csharp\TP_MGG\TP_MGTest\obj\Debug\TP_MGTest.pdb
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\TP_MG.exe
+D:\Csharp\TP_MGG\TP_MGTest\bin\Debug\TP_MG.pdb

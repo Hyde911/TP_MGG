@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP_MGTest.DataRepositoryTest
+namespace TP_MGTest.DataRepositoryTests
 {
-    class ReservationsTest
+    class ReservationCollectionTests
     {
     }
 }
