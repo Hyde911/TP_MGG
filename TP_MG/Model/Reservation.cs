@@ -28,7 +28,7 @@ namespace TP_MG.Model
             StringBuilder returnString = new StringBuilder();
             returnString.Append("Res no." + ResID.ToString().PadLeft(2));
             returnString.Append(";room " + Room.RoomNumber);
-            returnString.Append(" by" + Customer.FirstName.ToString().PadLeft(10));
+            returnString.Append(" by" + Customer.FirstName.ToString().PadLeft(15));
             returnString.Append(Customer.LastName.ToString().PadLeft(12));
             returnString.Append(" from" + ArrivalDate.ToShortDateString().PadLeft(11));
             returnString.Append(" to" + DepartureDate.ToShortDateString().PadLeft(11));

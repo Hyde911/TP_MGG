@@ -50,10 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DataRepositoryTests\BooksCollectionTests.cs" />
+    <Compile Include="DataRepositoryTests\RoomsCollectionTests.cs" />
     <Compile Include="DataRepositoryTests\CustomerCollectionTests.cs" />
     <Compile Include="DataRepositoryTests\ReservationCollectionTests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,7 +61,9 @@
       <Name>TP_MG</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PerfomanceDataRepositoryTests\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

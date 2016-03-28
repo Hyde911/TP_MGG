@@ -12,26 +12,34 @@ namespace TP_MG.View
 {
     public class SimpleCollectionPrinter : IDataPrinter
     {
-        public void printCollections(DataRepository repository)
+        public void printCustomers(Dictionary<int, Customer> customersMap)
         {
-            Dictionary<int, Customer> customersMap = repository.getAllCustomers();
-            List<Room> roomsList = repository.getAllRooms();
-            ObservableCollection<Reservation> reservationList = repository.getAllReservations();
-
-            foreach(KeyValuePair<int, Customer> customer in customersMap)
+            foreach (KeyValuePair<int, Customer> customer in customersMap)
             {
-                Console.WriteLine(customer.Key.ToString().PadLeft(2) + ": " +  customer.Value.ToString());
+                Console.WriteLine("id" + customer.Key.ToString().PadLeft(5) + ": " + customer.Value.ToString());
             }
+        }
 
-            foreach(Room room in roomsList)
-            {
-                Console.WriteLine(room.ToString());
-            }
-
+        public void printReservations(ObservableCollection<Reservation> reservationList)
+        {
             foreach (Reservation res in reservationList)
             {
                 Console.WriteLine(res.ToString());
             }
-    }
+        }
+
+        public void printRooms(List<Room> roomsList)
+        {
+            foreach (Room room in roomsList)
+            {
+                Console.WriteLine(room.ToString());
+            }
+        }
+
+        public void printWarning(string warning)
+        {
+            Console.WriteLine("Błąd");
+            Console.WriteLine(warning);
+        }
     }
 }

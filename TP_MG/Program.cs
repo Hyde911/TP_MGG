@@ -7,6 +7,7 @@ using TP_MG.DataGens;
 using TP_MG.Repositories;
 using TP_MG.View;
 using TP_MG.Model;
+using TP_MG.Services;
 
 namespace TP_MG
 {
@@ -15,9 +16,12 @@ namespace TP_MG
         static void Main(string[] args)
         {
             DataRepository data;
-            data = new DataRepository(new SmallDataGenerator());
-            SimpleCollectionPrinter printer = new SimpleCollectionPrinter();
-            printer.printCollections(data);
+            //            data = new DataRepository(new SmallDataGenerator());
+            //            DataService dataService = new DataService(data);
+            //           dataService.printLog();
+            data = new DataRepository(new BigRandomDataGenerator(100));
+            DataService dataService = new DataService(data);
+            dataService.printAllData();
             Console.ReadKey();
         }
     }

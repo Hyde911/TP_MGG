@@ -1,0 +1,9 @@
+2016-03-28 19:12 reservation added: Res no. 0;room 100 by     Frank       Zappa from 2015-11-15 to 2015-11-17
+2016-03-28 19:12 reservation added: Res no. 1;room 102 by     David       Bowie from 2015-12-01 to 2015-11-05
+2016-03-28 19:12 reservation added: Res no. 2;room 104 by      Adam Miauczyński from 2015-12-31 to 2016-01-05
+2016-03-28 19:12 reservation added: Res no. 3;room 105 by Krzysztof  Kononowicz from 2015-12-31 to 2016-01-02
+2016-03-28 19:12 reservation added: Res no. 4;room 106 by      Fela        Kuti from 2016-01-05 to 2016-01-11
+2016-03-28 19:12 reservation added: Res no. 5;room 207 by       Pat       Nixon from 2016-01-08 to 2016-01-10
+2016-03-28 19:12 reservation added: Res no. 6;room 100 by   Richard       Nixon from 2016-01-08 to 2016-01-10
+2016-03-28 19:12 reservation added: Res no. 7;room 202 by     David       Bowie from 2016-02-08 to 2016-02-15
+2016-03-28 19:12 reservation added: Res no. 8;room 100 by     Frank       Zappa from 2016-03-01 to 2016-03-15

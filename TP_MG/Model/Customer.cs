@@ -21,7 +21,7 @@ namespace TP_MG.Model
 
         public override string ToString()
         {
-            return String.Format("name: {0} {1} category: {2}", FirstName, LastName, CustomerGroup);
+            return String.Format("name: {0} {1} category: {2}", FirstName.PadLeft(15), LastName.PadLeft(15), CustomerGroup);
         }
     }
 }
