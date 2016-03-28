@@ -48,7 +48,7 @@ namespace TP_MG.DataGens
             Random random = new Random();
             for (int i = 0; i < dataSize; i++)
             {
-                reservations.Add(new Reservation(customers[random.Next()%dataSize],rooms[random.Next() % dataSize],i, datesFrom[random.Next() % dataSize],datesTo[random.Next() % dataSize]));
+                reservations.Add(new Reservation(customers[random.Next()%dataSize],rooms[random.Next() % dataSize],i, datesFrom[random.Next() % 1000],datesTo[random.Next() % 1000]));
             }
         }
 
