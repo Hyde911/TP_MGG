@@ -36,6 +36,7 @@ namespace TP_MG.DataGens
 
         public void fillCustomers(Dictionary<int, Customer> customers)
         {
+            customers.Clear();
             Random random = new Random();
             for (int i = 0; i < dataSize; i++)
             {
@@ -45,6 +46,7 @@ namespace TP_MG.DataGens
 
         public void fillReservations(Dictionary<int, Customer> customers, List<Room> rooms, ObservableCollection<Reservation> reservations)
         {
+            reservations.Clear();
             Random random = new Random();
             for (int i = 0; i < dataSize; i++)
             {
@@ -54,6 +56,7 @@ namespace TP_MG.DataGens
 
         public void fillRooms(List<Room> rooms)
         {
+            rooms.Clear();
             Random random = new Random();
             for (int i = 0; i < dataSize; i++)
             {
@@ -73,8 +76,6 @@ namespace TP_MG.DataGens
         private void prepareNamesLists()
         {
             string line;
-            try
-            {
                 using (StreamReader namesFile = new StreamReader("..\\firstNames"))
                 {
                     while ((line = namesFile.ReadLine()) != null)
@@ -89,11 +90,6 @@ namespace TP_MG.DataGens
                         lastNames.Add(line);
                     }
                 }
-            }
-            catch
-            {
-                Console.Out.WriteLine("File error");
-            }
         }
 
         private void prepareDates()

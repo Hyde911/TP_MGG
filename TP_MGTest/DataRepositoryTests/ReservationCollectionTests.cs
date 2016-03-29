@@ -162,6 +162,15 @@ namespace TP_MGTest.DataRepositoryTests
             testData.deleteReservationById(18);
         }
 
+        [TestMethod]
+        public void deleteAllDataTest()
+        {
+            int result = 0;
+            testData.deleteAllData();
+            int expected = testData.getAllReservations().Count();
+            Assert.AreEqual(expected, result, 0.0);
+        }
+
     }
 
 }

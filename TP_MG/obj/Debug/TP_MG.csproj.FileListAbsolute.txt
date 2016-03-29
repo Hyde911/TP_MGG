@@ -6,3 +6,10 @@ D:\Csharp\TP_MGG\TP_MG\obj\Debug\TP_MG.exe
 D:\Csharp\TP_MGG\TP_MG\obj\Debug\TP_MG.pdb
 D:\Csharp\TP_MGG\TP_MG\bin\Debug\Microsoft.Practices.Unity.dll
 D:\Csharp\TP_MGG\TP_MG\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+G:\JAVA\TP_MGG\TP_MG\bin\Debug\TP_MG.exe.config
+G:\JAVA\TP_MGG\TP_MG\obj\Debug\TP_MG.exe
+G:\JAVA\TP_MGG\TP_MG\obj\Debug\TP_MG.pdb
+G:\JAVA\TP_MGG\TP_MG\bin\Debug\TP_MG.exe
+G:\JAVA\TP_MGG\TP_MG\bin\Debug\TP_MG.pdb
+G:\JAVA\TP_MGG\TP_MG\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+G:\JAVA\TP_MGG\TP_MG\obj\Debug\TP_MG.csprojResolveAssemblyReference.cache

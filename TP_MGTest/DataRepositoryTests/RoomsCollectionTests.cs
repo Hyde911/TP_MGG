@@ -91,5 +91,13 @@ namespace TP_MGTest.DataRepositoryTests
 
         }
 
+        [TestMethod]
+        public void deleteAllDataTest()
+        {
+            int result = 0;
+            testData.deleteAllData();
+            int expected = testData.getAllRooms().Count();
+            Assert.AreEqual(expected, result, 0.0);
+        }
     }
 }

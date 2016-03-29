@@ -53,9 +53,9 @@
     <Compile Include="DataRepositoryTests\RoomsCollectionTests.cs" />
     <Compile Include="DataRepositoryTests\CustomerCollectionTests.cs" />
     <Compile Include="DataRepositoryTests\ReservationCollectionTests.cs" />
-    <Compile Include="PerfomanceDataRepositoryTests\DictionaryPerformanceTest.cs" />
-    <Compile Include="PerfomanceDataRepositoryTests\ListPerformanceTest.cs" />
-    <Compile Include="PerfomanceDataRepositoryTests\ObservableCollectionPerformanceTest.cs" />
+    <Compile Include="PerfomanceDataRepositoryTests\ListPerformanceTests.cs" />
+    <Compile Include="PerfomanceDataRepositoryTests\DictionaryPerformanceTests.cs" />
+    <Compile Include="PerfomanceDataRepositoryTests\ObservableCollectionPerformanceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

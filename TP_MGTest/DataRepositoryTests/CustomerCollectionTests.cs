@@ -22,9 +22,9 @@ namespace TP_MGTest.DataRepositoryTests
         public void addCustomerValidDataTest()
         {
             testData.addCustomer("Frank", "Zapp", category.vip);
-            string expected = "name: Frank Zapp category: vip";
-            string result = testData.getAllCustomers()[testData.getAllCustomers().Keys.Max()].ToString();
-            Assert.AreEqual(expected, result, true);
+            int expected = 8;
+            int result = testData.getAllCustomers().Count();
+            Assert.AreEqual(expected, result, 0.0);
         }
 
         [TestMethod]
@@ -151,6 +151,15 @@ namespace TP_MGTest.DataRepositoryTests
             Customer customer = testData.getCustomerByFirstAndLastName("David", "Bowie");
             string result = customer.LastName;
             Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void deleteAllDataTest()
+        {
+            int result = 0;
+            testData.deleteAllData();
+            int expected = testData.getAllCustomers().Count();
+            Assert.AreEqual(expected, result, 0.0);
         }
     }
 }

@@ -78,6 +78,15 @@ namespace TP_MG.Repositories
             }
         }
 
+        public void deleteAllData()
+        {
+            customersMap.Clear();
+            roomsList.Clear();
+            reservationList.Clear();
+            log.Clear();
+        }
+
+
         public void deleteCustomer(int customerNumber)
         {
             customersMap.Remove(customerNumber);

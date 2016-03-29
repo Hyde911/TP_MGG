@@ -209,24 +209,13 @@ namespace TP_MG.Services
         {
             System.IO.StreamWriter logFile;
             List<string> log = data.getLog();
-            try {
-                File.WriteAllText("..\\log.txt", String.Empty);
-                logFile = new System.IO.StreamWriter("..\\log.txt", true);
-            }
-            catch
+            using (logFile = new System.IO.StreamWriter(@"..\\log.txt", false))
             {
                 foreach (String str in log)
                 {
-                    Console.WriteLine(str);
+                    logFile.WriteLine(str);
                 }
-                return;
             }
-            foreach(String str in log)
-            {
-                Console.WriteLine(str);
-                logFile.WriteLine(str);
-            }
-            logFile.Close();
         }
     }
 }
