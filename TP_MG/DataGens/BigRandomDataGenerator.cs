@@ -46,11 +46,16 @@ namespace TP_MG.DataGens
 
         public void fillReservations(Dictionary<int, Customer> customers, List<Room> rooms, ObservableCollection<Reservation> reservations)
         {
+            if (customers.Count() == 0 || rooms.Count() == 0)
+            {
+                throw new Exception("customers or rooms lists are empty");
+            }
             reservations.Clear();
             Random random = new Random();
             for (int i = 0; i < dataSize; i++)
             {
-                reservations.Add(new Reservation(customers[random.Next()%dataSize],rooms[random.Next() % dataSize],i, datesFrom[random.Next() % 1000],datesTo[random.Next() % 1000]));
+                int randomDate = random.Next() % 1000;
+                reservations.Add(new Reservation(customers[random.Next()%dataSize],rooms[random.Next() % dataSize],i, datesFrom[randomDate],datesTo[randomDate]));
             }
         }
 

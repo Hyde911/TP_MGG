@@ -16,9 +16,10 @@ namespace TP_MG
         static void Main(string[] args)
         {
             DataRepository data;
-            data = new DataRepository(new BigRandomDataGenerator(0));
+            data = new DataRepository(new BigRandomDataGenerator(50));
             DataService dataService = new DataService(data);
             dataService.printAllData();
+            dataService.addRoom(80);
             Console.ReadKey();
         }
     }

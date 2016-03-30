@@ -24,7 +24,7 @@ namespace TP_MGTest.PerfomanceDataRepositoryTests
 
             using (testOutput = new System.IO.StreamWriter(path, false))
             {
-                testOutput.WriteLine(" ObservableCollection perfomance test");
+                testOutput.WriteLine("ObservableCollection perfomance test");
                 Dictionary<int, Customer> customers = new Dictionary<int, Customer>();
                 List<Room> rooms = new List<Room>();
                 ObservableCollection<Reservation> reservations = new ObservableCollection<Reservation>();

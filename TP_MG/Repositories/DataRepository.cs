@@ -59,9 +59,7 @@ namespace TP_MG.Repositories
             else
             {
                 roomsList.Add(new Room(roomNumber));
-
             }
-            
         }
 
         public void addReservation(Customer customer, Room room, DateTime arrivalDate, DateTime departureDate)

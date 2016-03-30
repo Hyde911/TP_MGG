@@ -44,15 +44,6 @@ namespace TP_MGTest.DataRepositoryTests
         public void addRoomValidDataTest()
         {
             testData.addRoom(150);
-            string expected = "room no. 150 on 1 floor";
-            string result = testData.getAllRooms()[testData.getAllRooms().Count()-1].ToString();
-            Assert.AreEqual(expected, result, true);
-        }
-
-        [TestMethod]
-        public void addRoomNumberOfElementsCheck()
-        {
-            testData.addRoom(150);
             int expected = 21;
             int result = testData.getAllRooms().Count();
             Assert.AreEqual(expected, result, 0.0);
